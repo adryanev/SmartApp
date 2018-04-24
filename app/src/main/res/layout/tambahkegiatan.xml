@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <EditText
+        android:drawableStart="@drawable/ic_namakegiatan"
+        android:hint="Nama Kegiatan Yang di ikuti"
+        android:id="@+id/etnamakegiatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <EditText
+            android:drawableStart="@drawable/ic_note"
+            android:id="@+id/etjeniskegiatan"
+            android:hint="Jenis Kegiatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:drawableStart="@drawable/ic_people"
+                android:hint="Jumlah Peserta"
+                android:id="@+id/etjumlahpeserta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <TextView
+            android:id="@+id/tvphotokegiatan"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="20dp"
+            android:hint="Photo Kegiatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageButton
+            android:id="@+id/btncamera"
+            android:src="@drawable/ic_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:text="Lokasi Kegiatan"
+            android:layout_marginLeft="8dp"
+            android:id="@+id/tvlokasikegiatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+       <TextView
+           android:text="Lat"
+           android:layout_marginLeft="8dp"
+           android:id="@+id/lat"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Long"
+            android:layout_marginLeft="8dp"
+            android:id="@+id/log"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="Save"
+            android:id="@+id/btnsave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+</LinearLayout>
+</LinearLayout>
